@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 1em sans-serif;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgba(232, 239, 237, 0.913);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(154, 161, 161);
+    padding: 10px 20px 0px;
+    color: #fdfcfc; 
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fcfcfc; 
+}
+.header {
+    background-color: rgb(5, 108, 108, 0.9%);
+    min-height: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.header h1{
+    text-align: center;
+    color: blue;
+    padding-top: 5px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(60, 129, 248);
+    min-height: 150px;
+    color:#f1f1f1
+}
+#logo{
+    width: 300px;
+    height: 190px;
+    border-radius: 20px;
+    border: 3px solid blue;
+}
+h1{
+    font-size: 40px;
+}
+#atendimento{
+    justify-content: center;
+}
+table{
+    width: 80%;
+}
+table td{
+    align-items: center;
+    text-align: center;
+}
+table thead th{
+    background-color: dodgerblue;
+    color: white;
+}
+table tbody tr:nth-child(even) td{
+    background-color:lightgray;
+}
+table tbody tr:hover td {
+    background-color: rgb(232, 211, 180);
+    cursor: pointer;
+}
+table tfoot td{
+    background-color:dodgerblue;
+    color: white;
+}
+section{
+    width: 500px;
+    border: 3px solid blue;
+    border-radius: 30px;
+    padding-top: 0px;
+    padding-left: 5em;
+    padding-right: auto;
+    padding-bottom: 15px;
+    margin-top: 1em;
+}
+section img{
+    width: 400px;
+    border-radius: 25px; 
+}
+fieldset{
+    margin: 8px;
+    border-radius: 10px;
+    width: 50%;
+}
+.formButtons{
+    padding-left: 25px;
+}
